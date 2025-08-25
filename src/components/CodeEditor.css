@@ -1,0 +1,114 @@
+/* Dark background */
+.code-editor-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem; /* space between editor and output */
+  height: 100vh;
+  background-color: #0f0a19;
+  color: #e5e5e5;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Editor panel */
+.editor-panel {
+  flex: 3; /* 70% width */
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.drawing-pad {
+  flex: 3; /* 70% width */
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+/* Output panel */
+.output-panel {
+  flex: 3; /* 30% width */
+  display: flex;
+  flex-direction: column;
+  background-color: #161622;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Header text */
+.panel-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #cfcfcf;
+}
+
+/* Button styles */
+.run-btn {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #4ade80;
+  border-radius: 6px;
+  background: transparent;
+  color: #4ade80;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.run-btn:hover {
+  background-color: #4ade80;
+  color: #0f0a19;
+}
+
+.run-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Toast / error message */
+.toast {
+  background-color: #dc2626;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Output box */
+.output-box {
+  flex: 1;
+  background-color: #0f0a19;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #d4d4d4;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
+
+/* Error state */
+.output-box.error {
+  border-color: #dc2626;
+  color: #f87171;
+}
+
+/* Scrollbar styling */
+.output-box::-webkit-scrollbar {
+  width: 8px;
+}
+.output-box::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}

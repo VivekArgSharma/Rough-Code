@@ -1,0 +1,16 @@
+.app-header {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(90deg,#0F2027, #203A43,#2C5364);
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 2vh;
+}
+
+.app-title {
+  font-size: 1rem;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,13 @@
+.pad-title-container {
+  text-align: center;
+  margin: 16px 0;
+  height: 5vh;
+}
+
+.pad-title {
+  font-size: 1.6rem;
+  color: #00ff7f; /* Neon green */
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+/* Reset margins and padding */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Optional: ensure no scrollbars unless needed */
+body {
+  overflow: hidden;
+  background-color: #f9fafb; /* same as Tailwind's bg-gray-50 */
+}

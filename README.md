@@ -1,12 +1,25 @@
-# React + Vite
+Rough + Code 🎨💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rough + Code is a web app that blends a powerful code editor with a freehand drawing pad. It’s designed for developers, students, and interview prep—letting you write and run code while sketching diagrams, algorithms, or notes on the side.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🖊️ Code Editor – Monaco-powered editor with syntax highlighting
 
-## Expanding the ESLint configuration
+⚡ Code Execution – Run JavaScript code instantly (multi-language support planned with Piston API)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Drawing Pad – Freehand canvas for rough work, notes, or diagrams
+
+📱 Responsive UI – Works across devices and screen sizes
+
+🚀 Fast & Lightweight – Built with Vite + React
+
+🛠️ Tech Stack
+
+Frontend: React + Vite
+
+Editor: Monaco Editor
+
+Drawing: React Konva
+
+(Planned) Backend Execution: Piston API
